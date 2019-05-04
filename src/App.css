@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  width: 1000px;
+  margin: 20px;
 }
 
 .App-logo {
@@ -21,6 +22,8 @@
 
 .App-link {
   color: #61dafb;
+  
+   
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +33,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  display: flex;
+  
+  
+}
+.bg1 p{
+  
+  background-color: yellow;
+}
+
+.container2{
+  color: yellow;
+ height: 450px;
+ width: 1400px;
+ margin: auto;
+  background-image: url("https://payload.cargocollective.com/1/6/200664/2775040/Screen%20Shot%202012-01-20%20at%2013.52.19.png");
+}
+.statistique{
+  display: flex;
+    
+}
+.nt{
+  padding: 50px;
+}
+.title2{
+  margin-right: 1000px;
+}
+.footer-container{
+  display: flex;
+  justify-content: center
+}
+.footer-container img{
+  padding: 30px;
+  
+}
+.footer-container h1{
+  text-align: center
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+  color: aqua;
+  padding-bottom: 20px
 }
